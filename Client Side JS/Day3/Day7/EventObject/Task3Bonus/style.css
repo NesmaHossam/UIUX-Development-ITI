@@ -1,0 +1,12 @@
+.password {
+    position: relative;
+    width: fit-content;
+}
+span {
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+span i {
+    font-size: 12px;
+}
