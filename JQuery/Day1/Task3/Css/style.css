@@ -1,0 +1,29 @@
+
+
+
+.container{
+    width: 400px;
+    /* height: 600px; */
+    border: 1px solid blueviolet;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+button{
+    background-color: blueviolet;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+input{
+    padding: 7px;
+    border: 1px solid blueviolet;
+}
