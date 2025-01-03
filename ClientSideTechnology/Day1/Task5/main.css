@@ -1,0 +1,11 @@
+#container{
+    height: 900px;
+    width: 600px;
+    background-color: red;
+}
+
+#mydiv{
+    height: 400px;
+    width: 600px;
+    background-color: red;
+}

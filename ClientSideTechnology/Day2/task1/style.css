@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+table{
+    border: 2px solid black;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+    border-collapse: collapse;
+
+}
+
+
+thead {
+    background-color: rgb(151, 151, 214);
+    border: 2px solid black;
+        color: white;
+        height: 30px;
+     
+        
+
+    
+}
+
+td ,tr{
+    border: 1px solid black;
+
+}
+
+.caption, .edit,span{
+    color: gray;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.edit{
+    background-color: white;
+}
+
+.content{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(78, 78, 153);
+    text-align: center;
+    color: black;
+}
+
+.bg{
+    background-color: rgb(96, 96, 190);
+}
+.note{
+    color: gray;
+    text-align: center;
+}
