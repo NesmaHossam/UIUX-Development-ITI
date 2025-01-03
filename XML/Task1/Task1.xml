@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library location="Ismailia" description="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\ITI 4-Month\XML\Task1\task1.xsd">
+	<librarian name="Ahmed"/>
+	<!-- book1-->
+	<book title="English" ISBN="32" Auther="Mohamed">
+		<preface introduction="NENO"/>
+		<parts title="English1">
+			<!--Ch1-->
+			<chapter title ="presentSimple">
+				<summary/>
+				<sections>
+					<content><![CDATA[
+				
+				<P>Lorem, ipsum dolor sit amet consectetur       adipisicing elit. Facere laborum id laboriosam, eius ea cupiditate? Natus, autem, provident maiores obcaecati eius nemo ut libero sed nostrum neque quae facilis inventore?
+				</P>]]></content>
+				</sections>
+			</chapter>
+			<!--Ch2-->
+			<chapter title="presentSimple">
+				<summary/>
+				<sections>
+					<content><![CDATA[
+				
+				<P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere laborum id laboriosam, eius ea cupiditate? Natus, autem, provident maiores obcaecati eius nemo ut libero sed nostrum neque quae facilis inventore?</P>]]></content>
+				</sections>
+			</chapter>
+		</parts>
+	</book>
+	<!-- book2-->
+	<book title="English" ISBN="32" Auther="Mohamed">
+		<preface introduction="NENO"/>
+		<parts title="English1">
+			<!-- book2-->
+			<chapter title="presentSimple">
+				<summary/>
+				<sections>
+					<content><![CDATA[
+				
+				<P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere laborum id laboriosam, eius ea cupiditate? Natus, autem, provident maiores obcaecati eius nemo ut libero sed nostrum neque quae facilis inventore?</P>]]></content>
+				</sections>
+			</chapter>
+			<!--Ch2-->
+			<chapter title="presentSimple">
+				<summary/>
+				<sections>
+					<content><![CDATA[
+				
+				<P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere laborum id laboriosam, eius ea cupiditate? Natus, autem, provident maiores obcaecati eius nemo ut libero sed nostrum neque quae facilis inventore?</P>]]></content>
+				</sections>
+			</chapter>
+		</parts>
+	</book>
+</library>

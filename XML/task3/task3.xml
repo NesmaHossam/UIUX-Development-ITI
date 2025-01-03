@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BookStore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\ITI 4-Month\XML\task3\task2.xsd">
+<book title="c programming" Auther="Ahmed" Date="2024" ISBN="1" publisher="Nesma"></book>
+
+</BookStore>

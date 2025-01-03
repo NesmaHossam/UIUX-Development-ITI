@@ -1,0 +1,25 @@
+<!ELEMENT library (librarian | book)+>
+<!ELEMENT librarian EMPTY>
+<!ELEMENT book (preface | parts)+>
+<!ELEMENT preface EMPTY>
+<!ELEMENT parts (chapter)+>
+<!ELEMENT chapter (summary | sections)+>
+<!ELEMENT summary EMPTY>
+<!ELEMENT sections (content)+>
+<!ELEMENT content (#PCDATA)>
+<!ATTLIST library
+	location CDATA #FIXED "Ismailia"
+	description CDATA #FIXED ""
+>
+<!ATTLIST librarian
+	name CDATA #FIXED "Ahmed"
+>
+<!ATTLIST book
+	title CDATA #FIXED "English"
+	ISBN CDATA #FIXED "32"
+Auther CDATA #FIXED "Mohamed">
+<!ATTLIST preface
+	introduction CDATA #IMPLIED
+>
+<!ATTLIST parts title  CDATA   #FIXED   "English1">
+<!ATTLIST chapter title CDATA   #FIXED "presentSimple">

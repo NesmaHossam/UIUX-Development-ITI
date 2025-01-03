@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+ 
+ 
+ <xs:element name="weekDay" />
+ <xs:simpleType name="weekDay">
+		<xs:union memberTypes="range day"></xs:union>
+	</xs:simpleType>
+ 
+ 
+  <xs:simpleType name="range">
+		<xs:restriction base="xs:integer">
+		<xs:minInclusive value="1"></xs:minInclusive>
+		<xs:maxInclusive value="7"></xs:maxInclusive>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	
+	  <xs:simpleType  name="day">
+		<xs:restriction base="xs:string">
+		<xs:enumeration value="sat"/>
+			<xs:enumeration value="sun"/>
+				<xs:enumeration value="frid"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	
+	
+</xs:schema>
