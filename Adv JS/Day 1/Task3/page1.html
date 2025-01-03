@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+
+    <h1 id="header">My Library</h1>
+  
+
+    <div class="main-cont">
+    <div class="container" id="bookManagement">
+      <h2>Book Management</h2><br>
+      <label for="numBooks">Number of books:</label>
+      <input type="number" id="numBooks" min="1" required />
+      <button id="submitNumBooks">Submit</button>
+    </div>
+
+    
+    <div id="bookForm" style="display: none;" class="container">
+        <h3>Enter Book Details</h3><br>
+        <div id="formContainer"></div>
+        <button id="saveBooks">Save Books</button>
+    </div>
+</div>
+    
+<div  id="bookList" style="display: none;">
+
+  <h3>Books List</h3>
+  <table id="booksTable">
+      <thead>
+          <tr>
+              <th>Name</th>
+              <th>Price</th>
+              <th>Author Name</th>
+              <th>Author Email</th>
+              <th>Actions</th>
+          </tr>
+      </thead>
+      <tbody></tbody>
+</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
