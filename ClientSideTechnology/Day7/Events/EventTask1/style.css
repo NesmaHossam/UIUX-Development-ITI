@@ -1,0 +1,12 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    display: inline-block;
+    /* text-align: center; */
+}
