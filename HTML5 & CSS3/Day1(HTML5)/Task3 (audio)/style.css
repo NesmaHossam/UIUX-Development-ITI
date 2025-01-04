@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: rgb(212, 174, 248);
+  border-radius: 20px;
+  width: 800px;
+  margin: auto;
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+#img {
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+button {
+  background-color: blueviolet;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.band {
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  line-height: 30px;
+  display: flex;
+  gap: 5px;
+}
+
+.band div {
+  cursor: pointer;
+
+  width: 100px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: blueviolet;
+}
+

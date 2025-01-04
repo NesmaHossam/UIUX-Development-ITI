@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="loginForm">
+        <h1>Form</h1>
+        <input type="text" id="input" placeholder="UserName" pattern="[A-Za-z]+" required class="username"><br>
+        <input type="email" id="email" placeholder="Email" pattern="[a-z0-9]+@[a-z]+\.[a-z]{2,3}" required><br>
+        <input type="checkbox" id="check"> Remember me <br><br>
+        <button type="button" onclick="save()" id="submit">SAVE</button>
+    </form>
+
+    <script src="task2.js"></script>
+</body>
+</html>

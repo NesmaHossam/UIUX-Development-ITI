@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>canvas</title>
+  </head>
+  <body>
+    <button id="click-me">Click me</button>
+    <input type="color" id="circle-color" />
+    <canvas id="canvas"></canvas>
+
+    <script>
+      const canvas = document.getElementById("canvas");
+      const button = document.getElementById("click-me");
+      const colorInput = document.getElementById("circle-color");
+
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+
+      var ctx = canvas.getContext("2d");
+
+      button.addEventListener("click", () => {
+        const circleColor = colorInput.value;
+
+        for (var i = 0; i < 100; i++) {
+          // ctx.clearRect(0,0,canvas.width,canvas.height);
+          ctx.beginPath();
+          var x = parseInt(Math.random() * canvas.width);
+          var y = parseInt(Math.random() * canvas.height);
+          ctx.arc(x, y, 50, 0, Math.PI * 2, true);
+          ctx.strokeStyle = circleColor;
+
+          ctx.stroke();
+        }
+      });
+    </script>
+  </body>
+</html>

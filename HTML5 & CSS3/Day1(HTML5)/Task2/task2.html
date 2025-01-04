@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Range</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- <div class="color" id="color"></div> -->
+
+      <div class="wrapper">
+        Red<input
+          type="range"
+          min="0"
+          max="255"
+          value="0"
+          id="red"
+          oninput="colorChange()"
+        />
+      </div>
+      <br />
+
+      <div class="wrapper">
+        Green<input
+          type="range"
+          min="0"
+          max="255"
+          value="0"
+          id="green"
+          oninput="colorChange()"
+        />
+      </div>
+      <br />
+
+      <div class="wrapper">
+        Blue<input
+          type="range"
+          min="0"
+          max="255"
+          value="0"
+          id="blue"
+          oninput="colorChange()"
+        />
+      </div>
+      <br />
+      <!-- <div class="copied" id="copied"></div> -->
+
+      <span id="output">rgb(0,0,0)</span>
+      <h1 id="paragraph">
+        Change the 3 color ranges above and observe my color change
+      </h1>
+    </div>
+    <script src="task2.js"></script>
+  </body>
+</html>

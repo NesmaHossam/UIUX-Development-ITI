@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div>
+          <img id="img" src="mario.jpeg" alt="photo" />
+        </div>
+        <div>
+          vol<input
+            type="range"
+            min="0"
+            max="1"
+            step="0.1"
+            value="1"
+            oninput="changeVol()"
+          />
+          time<input type="range" min="0" value="0" oninput="changeTime()" />
+          <button onclick="playaudio()">play</button>
+          <button onclick="pauseAudio()">pause</button>
+          <button onclick="stopAudio()">stop</button>
+        </div>
+      </div>
+
+      <audio src="superr.mp3" controls>
+        <!-- <source src></source>  -->
+      </audio>
+      <!-- loop controls autoplay -->
+      <div class="band">
+        <div id="candy" >
+          Mario
+        </div>
+        <div
+          id="sup"
+        
+          onclick="candy()"
+        >
+          Cairokee
+        </div>
+        <div id="mario" >
+          Hamakii
+        </div>
+      </div>
+     
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
