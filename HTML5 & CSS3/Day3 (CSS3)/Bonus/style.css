@@ -1,0 +1,61 @@
+
+
+
+.container{
+    border: 2px solid black;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    position: relative;
+}
+
+#heart {
+    position: absolute;
+    width: 100px;
+    height: 90px;
+    top: 150px;
+    left: 100px;
+    transform: rotate(180deg);
+
+  }
+  #heart:before,
+  #heart:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: red;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+  }
+  #heart:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+  }
+
+  #a2{
+position: absolute;
+right: 10px;
+bottom: 0px;
+  }
+
+#a1{
+    position: absolute;
+    left: 10px;
+    top: 0px;
+}
+
+#triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 80px solid red;
+  top: 220px;
+    left: 109px;
+    position: absolute;
+}
