@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 200px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(89, 193, 132, 0.3);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        #input {
+            padding: 10px;
+            width: 80%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 10px;
+             
+        }
+
+        #add {
+            padding: 15px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #add:hover {
+            background-color: #218838;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+        li {
+            background: white;
+            margin: 10px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin-left: 5px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+        .delete {
+            background-color: #dc3545;
+            color: white;
+        }
+
+        .edit {
+            background-color: #ffc107;
+            color: black;
+        }
+
+        .save {
+            background-color: #007bff;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">  <h1>To Do List</h1>
+    
+        <input type="text" id="input" placeholder="Add a new task...">
+        <button id="add">add</button>
+       
+        <ul id="list">
+        </ul></div>
+  
+
+    <script src="../build/ToDoList.js"></script>
+</body>
+</html>
